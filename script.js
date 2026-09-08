@@ -8,9 +8,9 @@ document.addEventListener("DOMContentLoaded", () =>{
     const bookmarkBtn = document.querySelector(".bookmark-btn");
 
     let isLiked = false;
-    let baseLikes = 0;
+    let baseLikes = 1200;
     if(likesCountSpan){
-        likesCountSpan.textContent = "0";
+      likesCountSpan.textContent = formatLikes(baseLikes);
     }
     function formatLikes(num)
     {
