@@ -149,6 +149,15 @@ body {
   stroke-linejoin: round;
 }
 
+.like-btn.liked {
+  color: #ff3040;
+}
+
+.like-btn.liked svg {
+  fill: currentColor;
+  stroke: currentColor;
+}
+
 /* Texto de Curtidas */
 .post-details {
   padding: 0 16px 12px 16px;
